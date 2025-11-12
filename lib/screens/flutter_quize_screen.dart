@@ -74,8 +74,7 @@ class QuizScreen extends StatelessWidget {
               ),
               const SizedBox(height: 20),
 
-              // ✅ Next button
-              if (controller.isAnswered.value)
+              // if (controller.isAnswered.value)
                 Align(
                   alignment: Alignment.centerRight,
                   child: ElevatedButton(
